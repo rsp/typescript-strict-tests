@@ -1,6 +1,35 @@
 TypeScript Strict Tests
 =
 
+Some minimal TypeScript programs written to work without strict flags and fail with them.
+
+For individual programs, see: [src](src).
+
+Usage
+-
+Fast test only with Deno and only with flags enabled by `--strict`
+(noImplicitAny, noImplicitThis, alwaysStrict, strictBindCallApply,
+strictNullChecks, strictFunctionTypes, strictPropertyInitialization):
+```
+./test-deno.sh
+```
+or:
+```
+npm test
+```
+More tests with comparison to the TypeScript compiler run with and without those flags,
+with the same flasg as above plus additional flags that are not enabled by `--strict` by default
+(noFallthroughCasesInSwitch, noImplicitReturns, noUnusedLocals, noUnusedParameters):
+```
+npm install
+npm run test:verbose
+```
+or:
+```
+npm install
+./test-verbose.sh
+```
+
 Issues
 -
 For any bug reports or feature requests please
