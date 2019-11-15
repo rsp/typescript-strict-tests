@@ -1,0 +1,24 @@
+{
+  "name": "typescript-strict-tests",
+  "version": "0.0.0",
+  "description": "TypeScript Strict Tests =",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "bash test-strict-deno.sh",
+    "test:verbose": "bash test-strict-deno.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsp/typescript-strict-tests.git"
+  },
+  "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (http://pocztarski.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/typescript-strict-tests/issues"
+  },
+  "homepage": "https://github.com/rsp/typescript-strict-tests#readme"
+}
