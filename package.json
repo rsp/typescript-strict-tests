@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "bash test-strict-deno.sh",
-    "test:verbose": "bash test-strict-deno.sh"
+    "test": "bash test-deno.sh",
+    "test:verbose": "bash test-verbose.sh"
   },
   "repository": {
     "type": "git",
